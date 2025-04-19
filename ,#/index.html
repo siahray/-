@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script type="text/javascript" src="index.js" defer></script>
+</head>
+
+<body>
+    <div class="ask" id="first">
+        <div class="main-header">
+            <h1>DO YOU WANNA GO OUT WITH ME?</h1>
+        </div>
+
+        <div class="gif">
+            <img src="gif/1.gif" alt="">
+        </div>
+
+        <div class="buttons">
+            <button type="button" class="no-btn" onclick="showSecond()">No</button>
+            <button class="yes-btn"><a href="date.html">YES</a></button>
+        </div>
+    </div>
+
+    <div class="ask" id="second" style="display: none;">
+        <div class="main-header">
+            <h1>Are you sure???</h1>
+        </div>
+
+        <div class="gif">
+            <img src="gif/2.gif" alt="">
+        </div>
+
+        <div class="buttons">
+            <button type="button" class="no-btn" onclick="showThird()">No</button>
+            <button class="yes-btn"><a href="date.html">YES</a></button>
+        </div>
+    </div>
+
+    <div class="ask" id="third" style="display: none;">
+        <div class="main-header">
+            <h1>Like sure, SURE???</h1>
+        </div>
+
+        <div class="gif">
+            <img src="gif/3.gif" alt="">
+        </div>
+
+        <div class="buttons">
+            <button type="button" class="no-btn" onclick="showFourth()">No</button>
+            <button class="yes-btn"><a href="date.html">YES</a></button>
+        </div>
+    </div>
+
+    <div class="ask" id="fourth" style="display: none;">
+        <div class="main-header">
+            <h1>PLEASE SAY YESSS T-T</h1>
+        </div>
+
+        <div class="gif">
+            <img src="gif/4.gif" alt="">
+        </div>
+
+        <div class="buttons">
+            <button type="button" class="no-btn" onclick="goBack()">No</button>
+            <button class="yes-btn"><a href="date.html">YES</a></button>
+        </div>
+    </div>
+
+    <div class="ask" id="back" style="display: none;">
+        <div class="main-header">
+            <h1>I KNOW YOUR JOKING <br>
+                RIGHT??? <br>
+                LET ME ASK YOU AGAIN 
+            </h1>
+        </div>
+
+        <div class="gif">
+            <img src="gif/5.gif" alt="">
+        </div>
+
+        <div class="buttons">
+            <button type="button" class="no-btn" onclick="reset()">Continue</button>
+        </div>
+    </div>
+</body>
+</html>
