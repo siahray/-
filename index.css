@@ -1,6 +1,6 @@
 * {
   font-family: "Times New Roman", Times, serif;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(250, 182, 182);
 }
 
 body {
@@ -9,6 +9,14 @@ body {
   height: 100%;
   width: 100%;
   position: relative;
+}
+
+img{
+  border: 5px solid rgb(202, 127, 139);
+  box-shadow: 5px 5px 5px rgb(151, 151, 151);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 a {
@@ -46,42 +54,34 @@ button {
   font-size: clamp(5px, 12.5vw, 10rem);
 }
 
+/* second tab */
+
 #second .gif img {
   position: relative;
   height: auto;
   width: 75%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* third tab */
-
-#third .no-btn {
-  font-size: clamp(5px, 4.5vw, 10rem);
-}
-
-#third .yes-btn {
-  font-size: clamp(5px, 14.5vw, 10rem);
-}
 
 #third .gif img {
   position: relative;
   height: auto;
   width: 75%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* fourth tab */
-
-#fourth .no-btn {
-  font-size: clamp(5px, 2.5vw, 10rem);
-}
-
-#fourth .yes-btn {
-  font-size: clamp(5px, 18vw, 10rem);
-}
 
 #fourth .gif img {
   position: relative;
   height: auto;
   width: 150%;
+  margin-left: auto;
+  margin-right: auto;
 }
 @media screen and (min-width: 1024px) {
   button {
@@ -142,9 +142,8 @@ button {
     font-size: clamp(5px, 10vw, 10rem);
   }
 
-  #fourth .gif img {
-    position: relative;
-    height: auto;
-    width: 150%;
+  #fourth .gif {
+    display: flex;
+    justify-content: center;
   }
 }
