@@ -30,6 +30,7 @@ button {
   font-size: clamp(5px, 10vw, 10rem);
   margin: 20px;
   cursor: pointer;
+  background-color: rgba(202, 127, 140, 0);
 }
 
 .main-header {
